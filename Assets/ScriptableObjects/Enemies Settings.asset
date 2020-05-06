@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8eddfbabd00e3f4cbf6e8cb7dd4c738, type: 3}
+  m_Name: Enemies Settings
+  m_EditorClassIdentifier: 
+  InitialHealth: 3
+  InitialDamage: 1
+  InitialReward: 4
+  Speed: 4
+  Path:
+  - {x: 6.54, y: -3.45}
+  - {x: 6.54, y: -0.57}
+  - {x: -6.52, y: -0.57}
+  - {x: -6.7, y: 2.51}
+  - {x: 4.51, y: 2.3}
+  StartingPosition: {x: -7.42, y: -3.63}
+  BaseTimeBetweenWaves: 10
+  AdditionalWaveTimePerEnemy: 0.75
+  WaveLengthVariation: 6
+  DamageChanceToIncrease: 0.4
+  HealthChanceToIncrease: 0.8
+  RewardChanceToIncrease: 0.7
